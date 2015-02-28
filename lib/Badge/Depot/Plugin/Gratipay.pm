@@ -17,7 +17,7 @@ has user => (
     isa => Str,
     required => 1,
 );
-has image_url => (
+has custom_image_url => (
     is => 'ro',
     isa => Uri,
     coerce => 1,
@@ -28,7 +28,7 @@ has image_url => (
 sub BUILD {
     my $self = shift;
     $self->link_url(sprintf 'https://gratipay.com/%s', $self->user);
-    $self->image_url(sprintf $self->image_url, $self->user);
+    $self->image_url(sprintf $self->custom_image_url, $self->user);
     $self->image_alt('Gratipay');
 }
 
@@ -36,16 +36,37 @@ sub BUILD {
 
 __END__
 
+
 =pod
 
 =head1 SYNOPSIS
 
     use Badge::Depot::Plugin::Gratipay;
 
+    my $badge = Badge::Depot::Plugin::Gratipay->new(user => 'my_name');
+
+    print $badge->to_html;
+    # prints '<a href="https://gratipay.com/my_name"><img src="https://img.shields.io/my_name.svg" /></a>'
+
 =head1 DESCRIPTION
 
-Badge::Depot::Plugin::Gratipay is ...
+Create a L<Gratipay|https://gratipay.com> badge for a Gratipay user.
+
+This class consumes the L<Badge::Depot> role.
+
+=head1 ATTRIBUTES
+
+=head2 user
+
+The Gratipay user name.
+
+=head2 custom_image_url
+
+By default, this module shows an image from L<shields.io|https://shields.io>. Use this attribute to override that with a custom url. Use a C<%s> placeholder where the user name should be inserted.
 
 =head1 SEE ALSO
+
+=for :list
+* L<Badge::Depot>
 
 =cut
