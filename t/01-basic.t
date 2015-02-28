@@ -11,7 +11,7 @@ BEGIN {
 my $badge = Badge::Depot::Plugin::Gratipay->new(user => 'testuser');
 
 is $badge->to_html,
-   '<a href="https://gratipay.com/testuser"><img src="https://img.shields.io/gratipaytestuser.svg" alt="Gratipay" /></a>',
+   '<a href="https://gratipay.com/testuser"><img src="https://img.shields.io/gratipay/testuser.svg" alt="Gratipay" /></a>',
    'Correct html';
 
 done_testing;
