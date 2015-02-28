@@ -109,11 +109,21 @@
    "provides" : {
       "Badge::Depot::Plugin::Gratipay" : {
          "file" : "lib/Badge/Depot/Plugin/Gratipay.pm",
-         "version" : "0.0001"
+         "version" : "0.0100"
       }
    },
    "release_status" : "stable",
-   "resources" : {},
-   "version" : "0.0001"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Csson/p5-Badge-Depot-Plugin-Gratipay/issues"
+      },
+      "homepage" : "https://metacpan.org/release/Badge-Depot-Plugin-Gratipay",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/Csson/p5-Badge-Depot-Plugin-Gratipay.git",
+         "web" : "https://github.com/Csson/p5-Badge-Depot-Plugin-Gratipay"
+      }
+   },
+   "version" : "0.0100"
 }
 
