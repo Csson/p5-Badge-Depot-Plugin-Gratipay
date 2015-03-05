@@ -4,7 +4,7 @@ Badge::Depot::Plugin::Gratipay - Gratipay plugin for Badge::Depot
 
 # VERSION
 
-Version 0.0001, released 2015-02-28.
+Version 0.0101, released 2015-03-05.
 
 # SYNOPSIS
 
@@ -34,6 +34,10 @@ By default, this module shows an image from [shields.io](https://shields.io). Us
 # SEE ALSO
 
 - [Badge::Depot](https://metacpan.org/pod/Badge::Depot)
+
+# SOURCE
+
+[https://github.com/Csson/p5-Badge-Depot-Plugin-Gratipay](https://github.com/Csson/p5-Badge-Depot-Plugin-Gratipay)
 
 # HOMEPAGE
 

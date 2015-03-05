@@ -1,4 +1,28 @@
 Revision history for Badge-Depot-Plugin-Gratipay
 
 {{$NEXT}}
-     - Initial release
+ [API Changes]
+
+ [Bug Fixes]
+
+ [Documentation]
+
+ [Enhancements]
+
+ [Meta]
+
+ [New Features]
+
+ [Requirements]
+
+ [Revision]
+
+ [Testing]
+
+0.0101 2015-03-05T23:17:57Z CET
+ [Documentation]
+ - Added link to github repo in pod.
+
+0.0100 2015-02-28T18:50:55Z CET
+ - Initial release
+
