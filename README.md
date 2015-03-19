@@ -4,7 +4,7 @@ Badge::Depot::Plugin::Gratipay - Gratipay plugin for Badge::Depot
 
 # VERSION
 
-Version 0.0101, released 2015-03-05.
+Version 0.0102, released 2015-03-19.
 
 # SYNOPSIS
 

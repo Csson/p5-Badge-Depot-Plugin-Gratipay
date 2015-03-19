@@ -12,6 +12,7 @@ prereqs:
      - Badge::Depot
      - namespace::autoclean
      - Types::Standard
+     - Types::URI
 
 plugins:
  - +config: Author::CSSON
