@@ -6,6 +6,7 @@ Revision history for Badge-Depot-Plugin-Gratipay
  [Bug Fixes]
 
  [Documentation]
+ - Added Task::Badge::Depot under see also.
 
  [Enhancements]
 
@@ -14,6 +15,7 @@ Revision history for Badge-Depot-Plugin-Gratipay
  [New Features]
 
  [Requirements]
+ - Listed Types::URI as a prereq.
 
  [Revision]
 

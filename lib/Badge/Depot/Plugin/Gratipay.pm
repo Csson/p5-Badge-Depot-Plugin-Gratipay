@@ -68,5 +68,6 @@ By default, this module shows an image from L<shields.io|https://shields.io>. Us
 
 =for :list
 * L<Badge::Depot>
+* L<Task::Badge::Depot>
 
 =cut

@@ -34,6 +34,7 @@ By default, this module shows an image from [shields.io](https://shields.io). Us
 # SEE ALSO
 
 - [Badge::Depot](https://metacpan.org/pod/Badge::Depot)
+- [Task::Badge::Depot](https://metacpan.org/pod/Task::Badge::Depot)
 
 # SOURCE
 
