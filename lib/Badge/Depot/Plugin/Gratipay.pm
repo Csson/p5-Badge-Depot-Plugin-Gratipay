@@ -9,7 +9,7 @@ use Types::Standard qw/Str/;
 use Types::URI qw/Uri/;
 with 'Badge::Depot';
 
-our $VERSION = '0.0103';
+our $VERSION = '0.0104';
 # ABSTRACT: Gratipay plugin for Badge::Depot (deprecated)
 # AUTHORITY
 
