@@ -9,8 +9,9 @@ use Types::Standard qw/Str/;
 use Types::URI qw/Uri/;
 with 'Badge::Depot';
 
-# VERSION
-# ABSTRACT: Gratipay plugin for Badge::Depot
+our $VERSION = '0.0103';
+# ABSTRACT: Gratipay plugin for Badge::Depot (deprecated)
+# AUTHORITY
 
 has user => (
     is => 'ro',
@@ -47,6 +48,10 @@ __END__
 
     print $badge->to_html;
     # prints '<a href="https://gratipay.com/my_name"><img src="https://img.shields.io/my_name.svg" /></a>'
+
+=head1 STATUS
+
+Deprecated. Since L<Gratipay|https://gratipay.com> has shut down this distribution has no purpose.
 
 =head1 DESCRIPTION
 
